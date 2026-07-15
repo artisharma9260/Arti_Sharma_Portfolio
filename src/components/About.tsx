@@ -44,7 +44,6 @@ export default function About() {
         >
           <img
             src="/Arti_Sharma_Portfolio/profile.jpeg" alt="Arti Sharma"
-            alt="Profile"
             style={{
               width: '100%',
               maxWidth: 360,
