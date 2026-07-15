@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --background: #FAF8F5;
+  --foreground: #2D2D2D;
+  --card: rgba(255, 255, 255, 0.7);
+  --card-foreground: #2D2D2D;
+  --primary: #8B6B4A;
+  --primary-foreground: #FAF8F5;
+  --secondary: #F5E6D3;
+  --secondary-foreground: #5A3E28;
+  --muted: #F0E8DE;
+  --muted-foreground: #7A6250;
+  --accent: #C98A6A;
+  --accent-foreground: #FAF8F5;
+  --border: rgba(139, 107, 74, 0.15);
+  --ring: #C98A6A;
+  --radius: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+::selection {
+  background: rgba(201, 138, 106, 0.25);
+  color: var(--foreground);
+}
