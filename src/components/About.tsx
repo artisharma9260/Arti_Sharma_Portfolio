@@ -43,7 +43,7 @@ export default function About() {
           style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
         >
           <img
-            src="/profile.jpeg"
+            src="/Arti_Sharma_Portfolio/profile.jpeg" alt="Arti Sharma"
             alt="Profile"
             style={{
               width: '100%',
